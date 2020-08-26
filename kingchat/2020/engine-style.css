@@ -1,0 +1,107 @@
+body{
+	margin: 20px;
+	font-size: 20px;
+	background-color: #f5f5f5;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+div a{
+	margin-right: 10px;
+	padding:5px;
+	color: grey;
+
+}
+
+input {
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.long{
+	width: 10000px;
+	margin-bottom: 40px;
+	font-size: 15px;
+}
+
+.bold {
+	font-weight: bold;
+}
+.grey {
+	color: grey;
+}
+.small {
+	font-size: small;
+}
+
+.btn{
+	padding: 20px;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+.type_here{
+	padding: 20px;
+}
+
+.fixed{
+	position:fixed;
+	bottom:8%;
+	right: 8%;	 
+}
+
+.white{
+	color: white
+}
+
+.green{
+	background-color: lightgreen;
+}
+.radio{
+	cursor: pointer;
+}
+.grey {
+	color: grey;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.btn{
+	outline: none;
+	border:none;
+	cursor: pointer;
+}
+
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.checkbox{
+	cursor: pointer;
+}
+
+.font-blue{
+	color: blue;
+}
+
+.font-orange{
+	color: darkorange;
+}
+
+button{
+	border-radius: 5px;
+	border:none;
+	padding:10px;
+	outline: none;
+	margin-right: 10px;
+}

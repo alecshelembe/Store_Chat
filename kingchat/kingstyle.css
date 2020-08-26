@@ -1,0 +1,89 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration:none;
+	list-style: none;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body{
+	margin: 20px;
+	text-align: center;
+	background-color: #f5f5f5;
+	font-size: 15px;
+}
+
+body div{
+	margin: 20px;
+}
+
+input {
+	padding: 7px;
+	cursor: pointer;
+}
+
+textarea{
+	width: 50%;
+	padding: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	outline: none;
+	border:none;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+label {
+	cursor: pointer;
+	padding: 12px;
+}
+
+h1{
+	margin: 20px;
+}
+
+.btn{
+	height: 40px;
+	width: 50px;
+	border-radius: 15%;
+	background-color: lightgreen;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.btn:active{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	color: lightgreen;
+}
+
+.offline {
+	color: red;
+}
+
+.online {
+	color: lightgreen;
+}
+
+.grey{
+	color: grey;
+}
+
+.grey p{
+	padding: 5px;
+}
+
+.small{
+	font-size: 13px;
+}
+
+.btn-top{
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	color: grey;
+}

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box
+}
+
+body{
+  background-color: #f5f5f5;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 20px 0 30px 0;
+  margin: 20px;
+  margin-top: 180px;
+
+}
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media (min-width: 950px) {
+  .container{
+   width: 50%;
+   margin-left: 25%;
+  }
+}
