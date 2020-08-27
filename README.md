@@ -1,5 +1,6 @@
 # MyChat
 Mychat
+This is a chat website system.
 
 Hello to get this app set up you will need phpmyadmin xampp and a browser i actually prefer firefox but chrome will be fine. 
 
