@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 26, 2020 at 07:24 AM
+-- Generation Time: Sep 25, 2020 at 09:52 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -51,6 +51,15 @@ CREATE TABLE `chat` (
   `m17` varchar(200) NOT NULL DEFAULT '',
   `m18` varchar(200) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `chat`
+--
+
+INSERT INTO `chat` (`client_code`, `date`, `store_user`, `m1`, `m2`, `m3`, `m4`, `m5`, `m6`, `m7`, `m8`, `m9`, `m10`, `m11`, `m12`, `m13`, `m14`, `m15`, `m16`, `m17`, `m18`) VALUES
+('107086500', '2020-09-19 16:08:01', 'test', 'hello', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('28111328', '2020-09-19 16:08:04', 'New', 'Hello', 'Samsung ', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('29407968', '2020-09-19 16:12:21', 'New', 'Hello this is me', 'Nice work man', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
