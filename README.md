@@ -1,4 +1,6 @@
 # MyChat
+
+(PHP Debuggin needed)
 Mychat
 This is a chat website system.
 
